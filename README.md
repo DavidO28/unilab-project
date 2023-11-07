@@ -1,5 +1,5 @@
 live page
-https://github.com/davido28/unilab-project.git
+https://davido28.github.io/unilab-project
 
 # Getting Started with Create React App
 

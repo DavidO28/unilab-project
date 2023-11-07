@@ -11,7 +11,7 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<LandingPage />} />
+          <Route exact path="/unilab-project" element={<LandingPage />} />
           <Route path="/RegistrationPage" element={<RegistrationPage />} />
           <Route path="/FormPage" element={<FormPage />} />
           <Route path="/ApiPage" element={<ApiPage />} />
