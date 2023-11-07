@@ -14,6 +14,7 @@ function ApiPage() {
     const studentsPerPage = 10;
     const [filteredStudents, setFilteredStudents] = useState([]);
     const pageCount = Math.ceil(filteredStudents.length / studentsPerPage);
+    
 
     const filteredAndPaginatedStudents = filteredStudents.slice(
         pageNumber * studentsPerPage,
@@ -23,7 +24,7 @@ function ApiPage() {
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(response => {
-                setFilteredStudents(response.data.slice(0, 105));
+                setFilteredStudents(response.data.slice(0, 95));
             })
             .catch(error => {
                 console.error('Error fetching student data:', error);
