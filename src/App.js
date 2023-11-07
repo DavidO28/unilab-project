@@ -9,14 +9,14 @@ function App() {
 
   return (
     <div>
-
+   <Router>
         <Routes>
-          <Route exact path="/unilab-project" element={<LandingPage />} />
+          <Route exact path="/" element={<LandingPage />} />
           <Route path="/RegistrationPage" element={<RegistrationPage />} />
           <Route path="/FormPage" element={<FormPage />} />
           <Route path="/ApiPage" element={<ApiPage />} />
         </Routes>
-  
+        </Router>
     </div>
   )
 }
