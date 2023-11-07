@@ -1,25 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from './components/LandingPage/LandingPage';
+import RegistrationPage from './components/RegistratonPage/RegistrationPage';
+import FormPage from './components/FormPage/FormPage';
+import ApiPage from './components/ApiPage/ApiPage'
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<LandingPage />} />
+          <Route path="/RegistrationPage" element={<RegistrationPage />} />
+          <Route path="/FormPage" element={<FormPage />} />
+          <Route path="/ApiPage" element={<ApiPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

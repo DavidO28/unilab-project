@@ -1,0 +1,27 @@
+.filterPopUp {
+    padding: 5px;
+    display: none;
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    width: 125px;
+    height: 160px;
+    background-color: white;
+    color: black;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.filterPopUp input {
+    width: 20px;
+    height: 20px;
+    margin: 2px;
+}
+
+.filterPopUp label {
+    margin: 2px;
+}
+
+.filterPopUp.open {
+    display: block;
+}

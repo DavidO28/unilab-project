@@ -1,0 +1,42 @@
+.landingPage {
+    font-size: x-large;
+    font-family: 'Rowdies';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../assets/images/LandingPage/landingPageStarsBackground.png);
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.mainImg {
+    width: 160px;
+    height: 160px;
+    object-fit: contain;
+}
+
+.headline {
+    padding: 30px 10px;
+    color: #4980C0;
+}
+
+.registrationBtn {
+    width: 200px;
+    height: 50px;
+    background-color: #4980C0;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+.registrationBtn:hover {
+    background-color: greenyellow;
+    color: black;
+}

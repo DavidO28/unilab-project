@@ -1,0 +1,27 @@
+import ReactPaginate from 'react-paginate';
+import './PaginationComponent.css';
+
+function PaginationComponent({ pageNumber, pageCount, handlePageClick }) {
+    return (
+        <div>
+            <div className='paginationStyles'>
+                <ReactPaginate
+                    className='reactPaginate'
+                    previousLabel={'Previous'}
+                    nextLabel={'Next'}
+                    breakLabel={'...'}
+                    pageCount={pageCount}
+                    marginPagesDisplayed={2}
+                    pageRangeDisplayed={3}
+                    onPageChange={handlePageClick}
+                    containerClassName={'pagination'}
+                    activeClassName={'active'}
+                    initialPage={pageNumber}
+                />
+            </div>
+            <div>Page {pageNumber + 1} of {pageCount}</div>
+        </div>
+    );
+}
+
+export default PaginationComponent;

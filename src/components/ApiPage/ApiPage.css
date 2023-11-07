@@ -1,0 +1,139 @@
+.ApiPage {
+    background-color: blueviolet;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+.headerContainer,
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    padding: 0 10px;
+    border-bottom: 1px solid white;
+    height: 90px;
+    width: 100%;
+}
+
+.headerContainer {
+    margin-right: 20px;
+    height: 100%;
+}
+
+.profile {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 1px solid white;
+    height: 100%;
+}
+
+.profile h2 {
+    margin-right: 20px;
+}
+
+.profile img {
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.formHeadliner {
+    cursor: pointer;
+}
+
+.formHeadliner:hover {
+    color: greenyellow;
+}
+
+.formTable {
+    margin: 20px 0;
+    width: 1000px;
+    height: 700px;
+}
+
+.formList {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+}
+
+.formTableSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+.formList table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.formList table thead,
+.formList table tbody tr {
+    height: 54px;
+}
+
+.grayRow {
+    background-color: lightgray;
+}
+
+.whiteRow {
+    background-color: white;
+}
+
+.logoutOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+}
+
+.logoutModal {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+.modalButtonsBox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logoutModal button {
+    background-color: #E6EBFF;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logoutModal button:hover {
+    background-color: red;
+}
