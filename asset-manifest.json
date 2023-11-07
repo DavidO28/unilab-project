@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/unilab-project/static/css/main.855dbb3c.css",
+    "main.js": "/unilab-project/static/js/main.676f40be.js",
+    "static/js/787.1918519a.chunk.js": "/unilab-project/static/js/787.1918519a.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/unilab-project/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/landingPageStarsBackground.png": "/unilab-project/static/media/landingPageStarsBackground.8126b9670e0c216cd205.png",
+    "static/media/Rowdies-Regular.ttf": "/unilab-project/static/media/Rowdies-Regular.c3e51820d6d0195a2ef9.ttf",
+    "index.html": "/unilab-project/index.html",
+    "main.855dbb3c.css.map": "/unilab-project/static/css/main.855dbb3c.css.map",
+    "main.676f40be.js.map": "/unilab-project/static/js/main.676f40be.js.map",
+    "787.1918519a.chunk.js.map": "/unilab-project/static/js/787.1918519a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.855dbb3c.css",
+    "static/js/main.676f40be.js"
+  ]
+}
