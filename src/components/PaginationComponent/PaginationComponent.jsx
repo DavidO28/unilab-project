@@ -16,7 +16,7 @@ function PaginationComponent({ pageNumber, pageCount, handlePageClick }) {
                     onPageChange={handlePageClick}
                     containerClassName={'pagination'}
                     activeClassName={'active'}
-                    initialPage={pageNumber}
+              
                 />
             </div>
             <div>Page {pageNumber + 1} of {pageCount}</div>

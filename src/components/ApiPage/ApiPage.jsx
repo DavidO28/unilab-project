@@ -23,7 +23,7 @@ function ApiPage() {
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts')
             .then(response => {
-                setFilteredStudents(response.data.slice(0, 25));
+                setFilteredStudents(response.data.slice(0, 105));
             })
             .catch(error => {
                 console.error('Error fetching student data:', error);

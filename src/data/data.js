@@ -8,7 +8,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "userId": 2,
       "points": 40,
       "name": "dato",
       "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
@@ -16,7 +16,7 @@ const studentsData = [
       "status": "inactive"
     },
     {
-      "userId": 1,
+      "userId": 3,
       "points": 30,
       "name": "elene",
       "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
@@ -24,7 +24,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "id": 4,
       "points": 40,
       "name": "gela",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -32,7 +32,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "id": 5,
       "points": 50,
       "name": "mari",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -40,7 +40,7 @@ const studentsData = [
       "status": "inactive"
     },
     {
-      "userId": 1,
+      "id": 6,
       "points": 60,
       "name": "nino",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -48,7 +48,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "id": 7,
       "points": 70,
       "name": "zura",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -56,7 +56,7 @@ const studentsData = [
       "status": "inactive"
     },
     {
-      "userId": 1,
+      "id": 8,
       "points": 70,
       "name": "gio",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -64,7 +64,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "id": 9,
       "points": 30,
       "name": "nika",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -72,7 +72,7 @@ const studentsData = [
       "status": "inactive"
     },
     {
-      "userId": 1,
+      "id": 10,
       "points": 70,
       "name": "ilia",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -80,7 +80,7 @@ const studentsData = [
       "status": "inactive"
     },
     {
-      "userId": 1,
+      "id": 11,
       "points": 70,
       "name": "ika",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
@@ -88,7 +88,7 @@ const studentsData = [
       "status": "active"
     },
     {
-      "userId": 1,
+      "id": 12,
       "points": 70,
       "name": "alex",
       "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
