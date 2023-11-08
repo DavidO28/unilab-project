@@ -5,7 +5,7 @@
 }
 
 .reactPaginate {
-    color: white;
+    color: #808e9b;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -15,10 +15,14 @@
     width: fit-content;
 }
 
+.reactPaginate>* {
+    margin: 0 5px;
+    padding: 0.5px;
+    font-size: 24px;
+}
+
 .active {
-    border: solid 1px #808e9b;
-    border-radius: 40px;
-    color: red;
+    color: white;
     text-decoration: underline;
     margin: 0 5px;
 }

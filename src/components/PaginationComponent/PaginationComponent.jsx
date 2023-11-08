@@ -7,8 +7,8 @@ function PaginationComponent({ pageNumber, pageCount, handlePageClick }) {
             <div className='paginationStyles'>
                 <ReactPaginate
                     className='reactPaginate'
-                    previousLabel={'Previous'}
-                    nextLabel={'Next'}
+                    previousLabel={'<'}
+                    nextLabel={'>'}
                     breakLabel={'...'}
                     pageCount={pageCount}
                     marginPagesDisplayed={2}
